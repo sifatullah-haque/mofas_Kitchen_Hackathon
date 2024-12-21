@@ -66,3 +66,6 @@ An ingredients manager built with Flutter. You can add items (e.g., *Salt*, *Pep
 
 ## Download the APP
 https://drive.google.com/drive/folders/16dRrkw1ghwgGCZCPrTiREp6N_TDnEqOj?usp=sharing
+
+
+- All Rights Reserved By Team Alpha
