@@ -1,4 +1,4 @@
-# Mofa Ingredients Manager
+# Smart Ingredients Manager
 
 An ingredients manager built with Flutter. You can add items (e.g., *Salt*, *Pepper*) along with their quantities, and update existing quantities if they already exist. Items are stored locally using **SharedPreferences**, and you can view or edit them at any time.
 
@@ -37,7 +37,7 @@ An ingredients manager built with Flutter. You can add items (e.g., *Salt*, *Pep
 
 ## Screens Overview
 
-### 1. Add Ingradiants
+### 1. Add Ingredients
 - **Item Category** Dropdown: *Fruits, Vegetables, Spices, etc.*
 - **Item Selection** Dropdown: *Salt, Pepper, Milk, etc.*
 - **Quantity Field**: Enter the numeric amount.
@@ -45,7 +45,7 @@ An ingredients manager built with Flutter. You can add items (e.g., *Salt*, *Pep
   - If the item already exists, the existing quantity is increased.  
   - Otherwise, it creates a new entry in SharedPreferences.
 
-### 2. View Ingradiants
+### 2. View Ingredients
 - Uses a `FutureBuilder` to load items from SharedPreferences.
 - Displays items in a `ListView`.
 - Shows a message if no items are found.
