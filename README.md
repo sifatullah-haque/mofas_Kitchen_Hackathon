@@ -37,7 +37,7 @@ An ingredients manager built with Flutter. You can add items (e.g., *Salt*, *Pep
 
 ## Screens Overview
 
-### 1. Addingradiants
+### 1. Add Ingradiants
 - **Item Category** Dropdown: *Fruits, Vegetables, Spices, etc.*
 - **Item Selection** Dropdown: *Salt, Pepper, Milk, etc.*
 - **Quantity Field**: Enter the numeric amount.
@@ -45,7 +45,7 @@ An ingredients manager built with Flutter. You can add items (e.g., *Salt*, *Pep
   - If the item already exists, the existing quantity is increased.  
   - Otherwise, it creates a new entry in SharedPreferences.
 
-### 2. Viewingradiants
+### 2. View Ingradiants
 - Uses a `FutureBuilder` to load items from SharedPreferences.
 - Displays items in a `ListView`.
 - Shows a message if no items are found.
